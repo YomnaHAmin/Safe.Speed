@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SafetySpeed</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="directionsApiKey">AIzaSyDhDRRtJq591-U5m5tQC6qxPZNu9C_bLCo</string>
+</resources>
