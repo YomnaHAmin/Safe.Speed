@@ -67,10 +67,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void handleLocation() {
 
+        Log.d(TAG, "In Handle Location");
+
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         initialLocationListener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
+
+                Log.d(TAG, "Initial Location Listener");
+
                 initLat = location.getLatitude();
                 initLng = location.getLongitude();
 
@@ -89,6 +94,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         locationListener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
+
+                Log.d(TAG, "Location Changed");
 
                 if(is_firstSegment){
                     prevLat = initLat;

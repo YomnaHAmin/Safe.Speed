@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 public class GoogleMapsDirections {
     private final static String TAG = "#app_GoogleDirections";
     private static final int overview = 0;
-    private static final String API_KEY = "AIzaSyCEiK_4QLd1BDDkMnpP1byqQz48mckLA9Y";
+    private static final String API_KEY = "AIzaSyCYdqVeYYZ1sbwgiN2Gjn6C5BEBSgSTpMs";
 
     private Context mContext;
 
